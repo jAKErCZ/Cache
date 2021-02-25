@@ -1,5 +1,5 @@
 {
-    "name": "gregwar/cache",
+    "name": "jakercz/cache",
     "description": "A lightweight file-system cache system",
     "keywords": ["cache", "caching", "system", "file-system"],
     "license": "MIT",
@@ -7,11 +7,15 @@
         {
             "name": "Gregwar",
             "email": "g.passault@gmail.com"
+        },
+        {
+            "name": "Dominik Korčák",
+            "email": "korcak@ratinho.cz"
         }
     ],
     "target-dir": "Gregwar/Cache",
     "require": {
-        "php": ">=5.3"
+        "php": ">=7.4"
     },
     "autoload": {
         "psr-0": {

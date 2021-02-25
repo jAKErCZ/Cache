@@ -321,7 +321,7 @@ class Cache implements CacheInterface
      * @return string
      * @throws \InvalidArgumentException
      */
-    public function getOrCreate($filename, array $conditions, $function, $file = false, $actual = false)
+    public function getOrCreate($filename, array $conditions, $function = false, $file = false, $actual = false)
     {
         if (!is_callable($function)) {
             throw new \InvalidArgumentException('The argument $function should be callable');
@@ -358,7 +358,7 @@ class Cache implements CacheInterface
      * @return string
      * @throws \InvalidArgumentException
      */
-    public function getOrCreateFile($filename, array $conditions, $function, $actual = false)
+    public function getOrCreateFile($filename, array $conditions, $function = false, $actual = false)
     {
         return $this->getOrCreate($filename, $conditions, $function, true, $actual);
     }
