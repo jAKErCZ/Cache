@@ -2,7 +2,6 @@ Cache
 =====
 
 ![Build status](https://travis-ci.org/Gregwar/Cache.svg?branch=master)
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YUXRLWHQSWS6L)
 
 This is a lightweight cache system based on file and directories.
 
@@ -13,26 +12,15 @@ Step 1: Install it
 ------------------
 
 Via composer:
-
-```json
-{
-    "require": {
-        "gregwar/cache": "1.0.*"
-    }
-}
+```sh
+composer require jakercz/cache
 ```
 
 Or with a clone of the repository:
 
 ```bash
-git clone https://github.com/Gregwar/Cache.git
+git clone git@github.com:jAKErCZ/Cache.git
 ```
-
-Or downloading it:
-
-* [Download .zip](https://github.com/Gregwar/Cache/archive/master.zip)
-* [Download .tar.gz](https://github.com/Gregwar/Cache/archive/master.tar.gz)
-
 Step 2: Setup the rights
 ------------------------
 
